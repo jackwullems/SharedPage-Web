@@ -1,0 +1,117 @@
+// SETTINGS CONSTANTS
+export const LOGO_BG = 'LOGO_BG';
+export const NAVBAR_BG = 'NAVBAR_BG';
+export const SIDEBAR_BG = 'SIDEBAR_BG';
+export const THEME = 'THEME';
+export const DIRECTION = 'DIRECTION';
+export const SIDEBAR_POSITION = 'SIDEBAR_POSITION';
+export const HEADER_POSITION = 'HEADER_POSITION';
+export const LAYOUT = 'LAYOUT';
+export const SIDEBAR_TYPE = 'SIDEBAR_TYPE';
+
+// CHAT CONSTANTS
+export const SELECTED_CHAT = 'SELECTED_CHAT';
+export const SEARCH_USER = 'SEARCH_USER';
+export const MSG_SUBMIT = 'MSG_SUBMIT';
+
+// CONTACT CONSTANTS
+export const ADD_CONTACT = 'ADD_CONTACT';
+export const UPDATE_CONTACT = 'UPDATE_CONTACT';
+export const CONTACT_DETAILS = 'CONTACT_DETAILS';
+export const EDIT_CONTACT = 'EDIT_CONTACT';
+export const SET_VISIBILITY_FILTER = 'SET_VISIBILITY_FILTER';
+export const FILTER_CONTACT = 'FILTER_CONTACT';
+export const TOGGLE_STARRED_CONTACT = 'TOGGLE_STARRED_CONTACT';
+export const DELETE_CONTACT = 'DELETE_CONTACT';
+
+// EMAIL CONSTANTS
+export const STAR_EMAIL = 'STAR_EMAIL';
+export const IMPORTANT_EMAIL = 'IMPORTANT_EMAIL';
+export const OPEN_EMAIL = 'OPEN_EMAIL';
+export const TRASH_EMAIL = 'TRASH_EMAIL';
+export const ASSIGN_FOLDER = 'ASSIGN_FOLDER';
+export const ASSIGN_LABEL = 'ASSIGN_LABEL';
+export const SET_SELECTED_EMAIL = 'SET_SELECTED_EMAIL';
+export const FILTER_EMAIL = 'FILTER_EMAIL';
+export const SET_EMAIL_VISIBILITY_FILTER = 'SET_EMAIL_VISIBILITY_FILTER';
+
+
+//////////////////////////Appp/////////////////////////
+
+export const FETCH_USER = 'user/FETCH_USER';
+export const SUCCESS_USER = 'user/SUCCESS_USER';
+export const FAIL_USER = 'user/FAIL_USER';
+export const RESET_USER = 'user/RESET_USER';
+
+export const FETCH_WALLET_DATA = 'wallet/FETCH_WALLET_DATA';
+export const SUCCESS_WALLET_DATA = 'wallet/SUCCESS_WALLET_DATA';
+export const FAIL_WALLET_DATA = 'wallet/FAIL_WALLET_DATA';
+export const SET_ACTIVE_WALLET = 'wallet/SET_ACTIVE_WALLET';
+export const FETCH_WALLET_ADDRESS = 'wallet/FETCH_WALLET_ADDRESS';
+export const SUCCESS_WALLET_ADDRESS = 'wallet/SUCCESS_WALLET_ADDRESS';
+export const FAIL_WALLET_ADDRESS = 'wallet/FAIL_WALLET_ADDRESS';
+
+export const FETCH_HISTORY = 'history/FETCH_HISTORY';
+export const SUCCESS_HISTORY = 'history/SUCCESS_HISTORY';
+export const FAIL_HISTORY = 'history/FAIL_HISTORY';
+
+export const FETCH_SUBMIT_WITHDRAW = 'withdraw/FETCH_SUBMIT_WITHDRAW';
+export const SUCCESS_SUBMIT_WITHDRAW = 'withdraw/SUCCESS_SUBMIT_WITHDRAW';
+export const FAIL_SUBMIT_WITHDRAW = 'withdraw/FAIL_SUBMIT_WITHDRAW';
+export const HANDLE_CHANGE_WITHDRAW = 'withdraw/HANDLE_CHANGE_WITHDRAW';
+export const CLEAR_WITHDRAW_FORM = 'withdraw/CLEAR_WITHDRAW_FORM';
+
+export const FETCH_LOGOUT = 'auth/FETCH_LOGOUT';
+export const FAIL_LOGOUT = 'auth/FAIL_LOGOUT';
+export const FETCH_LOGIN = 'auth/FETCH_LOGIN';
+export const FAIL_LOGIN = 'auth/FAIL_LOGIN';
+
+export const FETCH_MARKET_DATA = 'FETCH_MARKET_DATA';
+export const FETCH_TICKER_DATA = 'FETCH_TICKER_DATA';
+export const SUCCESS_TRADE_DATA = 'SUCCESS_TRADE_DATA';
+export const FAIL_TRADE_DATA = 'FAIL_TRADE_DATA';
+export const FETCH_TRADE_DATA = 'FETCH_TRADE_DATA';
+export const FETCH_TRADE_BALANCE = 'FETCH_TRADE_BALANCE';
+
+export const FETCH_SIGNUP = 'FETCH_SIGNUP'
+export const Fail_SIGNUP = 'Fail_SIGNUP'
+
+export const FETCH_MARKET = 'FETCH_MARKET'
+export const SUCCESS_MARKET = 'SUCCESS_MARKET'
+export const FAIL_MARKET = 'FAIL_MARKET'
+
+export const FETCH_ACCOUNT_VERIFY = 'FETCH_ACCOUNT_VERIFY'
+export const FETCH_ACCOUNT_VERIFY_SUCCESS = 'FETCH_ACCOUNT_VERIFY_SUCCESS'
+export const Fail_ACCOUNT_VERIFY = 'Fail_ACCOUNT_VERIFY'
+
+export const FETCH_SEND_ACCOUNT_VERIFY_MAIL = 'FETCH_SEND_ACCOUNT_VERIFY_MAIL'
+export const Fail_SEND_MAIL_ACCOUNT_VERIFY = 'Fail_SEND_MAIL_ACCOUNT_VERIFY'
+export const FETCH_SENDM_MAIL_ACCOUNT_VERIFY_SUCCESS = 'FETCH_SENDM_MAIL_ACCOUNT_VERIFY_SUCCESS'
+
+export const FETCH_FORGOT_EMAIL = 'FETCH_FORGOT_EMAIL'
+export const FAIL_FORGOT_EMAIL = 'FAIL_FORGOT_EMAIL'
+export const FAIL_FORGOT_EMAIL_SUCCESS = 'FAIL_FORGOT_EMAIL_SUCCESS'
+
+export const FETCH_RESET_PASSWORD = 'FETCH_RESET_PASSWORD'
+export const Fail_RESET_PASSWORD = 'Fail_RESET_PASSWORD'
+export const RESET_PASSWORD_SUCCESS = 'RESET_PASSWORD_SUCCESS'
+export const FETCH_RESET_PASSWORD_LINK = 'FETCH_RESET_PASSWORD_LINK'
+
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS'
+export const SIGNUP_SUCCESS ='SIGNUP_SUCCESS'
+
+export const FETCH_OTP = 'FETCH_OTP'
+export const Fail_OTP = 'Fail_OTP'
+export const SUCCESS_OTP = 'SUCCESS_OTP'
+
+
+//----------------------------------------
+export const SIGN_IN = 'SIGNIN'
+export const SIGN_OUT = 'SIGNOUT'
+export const UPDATE_PROFILE = 'updateProfile'
+export const SET_BUSINESS = 'SETBUSINESS'
+export const SET_NOTEBUSINESS = 'SETNOTEBUSINESS'
+export const SET_PRIVATENOTEBUSINESS = 'SETPRIVATENOTEBUSINESS'
+export const FOLLOW_BUSINESS = 'followBusiness'
+export const CHANGE_BUSINESS_ROLE = 'changeBusinessRole'
+export const CHANGE_MEMBER_ROLE = 'changeMemberRole'
